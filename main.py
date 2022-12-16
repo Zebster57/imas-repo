@@ -4,6 +4,7 @@ def some_func(a, b):
     return a * b
 
 
+<<<<<<< HEAD
 def binary_search(iteration: list, item):
     """
     Метод позовляет найти индекс item в списке iteration с помощью бинарного (Логорифмического) поиска
@@ -22,3 +23,17 @@ def binary_search(iteration: list, item):
             low = mid + 1
 
     return None
+=======
+def log(numeral, base=2):
+    """
+    Метод преднозначен для подсчета логорифма от: numeral, с осонованием: base
+    numeral: число
+    base: основание (по-умолчанию = 2)
+    """
+    y = 0
+    while numeral > 1:
+        y += 1
+        numeral = numeral / base
+
+    return y
+>>>>>>> logarithm
